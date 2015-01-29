@@ -1,6 +1,6 @@
 task hello {
  doLast {
-  println 'Hello world!'
+  println 'Hello git world'
  }
 }
 
