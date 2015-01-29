@@ -1,0 +1,11 @@
+task hello {
+ doLast {
+  println 'Hello world!'
+ }
+}
+
+task upper << {
+  String someString = 'Hovo'
+  println "Original: " + someString
+  println "Upper case: " + someString.toUpperCase()
+}
